@@ -7,7 +7,7 @@ import cors from 'cors';
 dotenv.config()
 
 const configuration = new Configuration({
-  apiKey: process.env.IQBAL_API_KEY,
+  apiKey: process.env.NEWAI_API_KEY,
 });
 
 const openai = new OpenAIApi(configuration);
